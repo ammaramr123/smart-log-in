@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration-style/bootstrap.css">
+    <link rel="stylesheet" href="registration-style/logIn.css">
+
+    <title>Smart Form</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="log-in  h-50 text-center mx-auto ">
+            <div class="container  text-center">
+                <div class="log-in-header text-center p-4">
+                    <h1>Smart Login System</h1>
+                </div>
+                <div class="log-in-form form-floating mb-4 w-75  mx-auto " id="email-field">
+                    <input type="email" id="log-in-email" class=" p-2 form-control-plaintext" placeholder="Enter Your Email">
+                </div>
+                <div class="log-in-form mb-4 w-75 mx-auto " id="pass-field">
+                    <input type="password" id="log-in-pass" class=" p-2 form-control-plaintext "
+                        placeholder="Enter Your Password">
+                </div>
+                <p id="log-in-success" style="font-size:large;"> </p>
+                <div class="log-in-button ">
+                    <a href=""  id="log-in-link"><button class="btn bg-info mb-2 w-75" id="sign-In-btn" type="button">Login</button></a>
+                </div>
+                <div class="log-up-link mt-2">
+                    <p>Don’t have an account? <span><a href=""id="sign-up-link"> Sign Up</a></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="log-up  h-50 text-center mx-auto d-none">
+            <div class="container  text-center">
+                <div class="log-up-header text-center p-4">
+                    <h1>Smart Login System</h1>
+                </div>
+                <div class="log-up-form form-floating mb-4 w-75  mx-auto " id="Name-field">
+                    <input type="text" id="name" class=" p-2 form-control-plaintext" placeholder="Enter Your Name " autocomplete="name">
+                </div>
+                <div class="log-up-form form-floating mb-4 w-75  mx-auto " id="email-field">
+                    <input type="email" id="email" class=" p-2 form-control-plaintext" placeholder="Enter Your Email" autocomplete="email">
+                </div>
+                <div class="log-up-form mb-4 w-75 mx-auto " id="pass-field">
+                    <input type="password" id="pass" class=" p-2 form-control-plaintext " placeholder="Enter Your Password">
+                </div>
+                <p id="log-up-success" style="font-size:large;"> </p>
+                <div class="log-up-button ">
+                    <button class="btn bg-info mb-2 w-75" id="sign-up-btn" type="button">Sign Up</button>
+                </div>
+                <div class="log-up-link mt-2">
+                    <p>Don’t have an account? <span><a href=""  id="sign-in-link"> Sign in</a></span></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="registration-js/regist.js"></script>
+</body>
+
+</html>
